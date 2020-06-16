@@ -1,0 +1,12 @@
+.search-result {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+
+    .search--map {
+        top: 0;
+        z-index: 0;
+        padding-right: 0 !important;
+    }
+}
+
