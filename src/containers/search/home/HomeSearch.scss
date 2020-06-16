@@ -1,0 +1,44 @@
+.home-search {
+    padding: 3rem 10%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    position: absolute;
+    top: 59vh;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(26, 70, 104, 0.51);
+    z-index: 1;
+
+
+    div:last-child {
+        button {
+            padding: .69rem 3rem;
+            border: none;
+            border-radius: .5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .home-search {
+        grid-template-columns: 2fr 2fr 1fr;
+
+        #region {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-search {
+        padding: 2rem 4%;
+        grid-template-columns: 2fr 1fr;
+
+        #relevance {
+            display: none;
+        }
+
+    }
+}
