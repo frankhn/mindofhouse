@@ -1,0 +1,14 @@
+.links {
+    display: flex;
+    justify-content: space-between;
+
+    .f-link {
+        background: transparent;
+        color: #000;
+        text-transform: capitalize;
+        align-self: flex-end;
+    }
+    .f-link:hover {
+        color: rgb(3, 32, 5);
+    }
+}
