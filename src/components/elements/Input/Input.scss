@@ -1,0 +1,23 @@
+.invalid {
+    border-radius: none !important;
+    border-top-right-radius: .4rem !important;
+    border-top-left-radius: .4rem !important;
+    border: 1px solid red !important;
+  }
+  .input__element {
+    border-radius: .3rem;
+    height: 25px;
+    padding: 1rem;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    color: rgba(40, 62, 74, 0.75);
+    font-weight: 400;
+    font-size: 17px;
+    outline: none;
+    width: 100%;
+    text-transform: none;
+  }
+  
+  select {
+    padding: 0 !important;
+  }
