@@ -1,0 +1,18 @@
+.main__ {
+  // padding: 0 10% .5rem;
+}
+.indexes {
+  font-size: .7rem;
+  color: gray;
+  margin: 0 0 1rem;
+
+  .index-link {
+    color: gray;
+    text-transform: lowercase;
+  }
+}
+
+.indexes:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
