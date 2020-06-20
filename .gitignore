@@ -25,4 +25,4 @@ yarn-error.log*
 
 # package
 /dist
-/.next
+# /.next
