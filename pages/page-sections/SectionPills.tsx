@@ -13,7 +13,7 @@ export default function SectionPills() {
 
   const classes: any = useStyles();
   return (
-    <div className={ classes.section } style={{ marginTop: "-7rem"}}>
+    <div className={ classes.section } style={{ marginTop: "-6rem"}}>
       <div className={ classes.container }>
         <div id="navigation-pills">
           <GridContainer>

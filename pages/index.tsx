@@ -36,9 +36,10 @@ const IndexPage = (props: any) => {
         } }
         { ...rest }
       />
-      <Parallax image={ require('assets/img/house3.jpg') } >
-        <div className={ `makeStyles-container-5 ${ classes.container }` } style={ { background: "#00000061" } }>
-          <GridContainer style={{ padding: "0"}}>
+      <Parallax image={ require('assets/img/house3.jpg') }>
+        <div className={ `makeStyles-container-5 ${ classes.container }` } 
+        style={ { background: "#00000061" } }>
+          <GridContainer style={{ padding: "0", marginBottom: "2rem"}}>
             <GridItem xs={ 12 } sm={ 12 } md={ 6 }>
               <h1 className={ classes.title }
                 style={ { fontSize: "2.4rem", color: "#fff" } }
