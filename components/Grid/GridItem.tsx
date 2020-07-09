@@ -19,11 +19,12 @@ const styles:any = {
 const useStyles = makeStyles(styles);
 
 interface Props{
-  xs: any
-  sm: any
-  md: any
+  xs?: any
+  sm?: any
+  md?: any
   children?:any
   className?:any
+  lg?:any
 }
 
 export default function GridItem(props:Props) {
