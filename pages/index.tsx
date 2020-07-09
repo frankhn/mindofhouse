@@ -56,8 +56,7 @@ const IndexPage = (props: any) => {
                 size="lg"
                 href="https://www.youtube.com"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fas fa-play" />
                 Watch video
               </Button>
@@ -66,10 +65,10 @@ const IndexPage = (props: any) => {
         </div>
       </Parallax>
 
-      <div className={ classNames(classes.main, classes.mainRaised) }
-        style={ { boxShadow: "none", margin: "-100px 5px 0", borderRadius: "0" } }>
+      <div className={classNames(classes.main, classes.mainRaised)} 
+      style={{ boxShadow: "none", margin: "-100px 5px 0", borderRadius: "0" }}>
         <SectionPills />
-      </div>
+        </div>
       <Footer />
 
     </div>
