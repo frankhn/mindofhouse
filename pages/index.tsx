@@ -36,19 +36,21 @@ const IndexPage = (props: any) => {
         } }
         { ...rest }
       />
-      <Parallax image={require('assets/img/house3.jpg')} >
-        <div className={`makeStyles-container-5 ${classes.container }`} style={ { background: "#00000061" } }>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
+      <Parallax image={ require('assets/img/house3.jpg') } >
+        <div className={ `makeStyles-container-5 ${ classes.container }` } style={ { background: "#00000061" } }>
+          <GridContainer style={{ padding: "0"}}>
+            <GridItem xs={ 12 } sm={ 12 } md={ 6 }>
               <h1 className={ classes.title }
-                style={ { fontSize: "2.4rem", color: "#fff" } }>Your Story Starts With Us.</h1>
-              <h4
-                style={ { fontSize: "1rem", color: "#fff" } }>
+                style={ { fontSize: "2.4rem", color: "#fff" } }
+                >Your Story Starts With Us.</h1>
+              <h3
+                style={ { fontSize: "1rem", color: "#fff" } }
+                >
                 Every  page needs a small description after the big bold
                 title, that{ "'" }s why I added this text here. Add here all the
                 information that can make houses create the first
                 impression.
-              </h4>
+              </h3>
               <br />
               <Button
                 style={ { padding: ".5rem 1rem", fontSize: ".8rem" } }
@@ -65,10 +67,9 @@ const IndexPage = (props: any) => {
         </div>
       </Parallax>
 
-      <div className={classNames(classes.main, classes.mainRaised)} 
-      style={{ boxShadow: "none", margin: "-100px 5px 0", borderRadius: "0" }}>
+      <div className={ classNames(classes.main, classes.mainRaised) } >
         <SectionPills />
-        </div>
+      </div>
       <Footer />
 
     </div>
