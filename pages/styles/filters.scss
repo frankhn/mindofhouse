@@ -1,0 +1,18 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 2rem;
+
+    button {
+        padding: 0 1.7rem;
+        background: #1d14b1;
+        border: none;
+        border-radius: .3rem;
+        color: #fff;
+        font-size: 1rem;
+    }
+}
+
+.filters div:first-child {
+    flex-basis: 30%;
+}
