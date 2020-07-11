@@ -22,7 +22,7 @@ const useStyles = makeStyles(styles);
 
 export default () => {
 
-  const [ products, setProducts ] = useState([
+  const [ products ] = useState([
     { id: 1, image: productImg4, name: "Kacyiru 2 bedroom", link: "#", rating: 5, oldPrice: 500, newPrice: 450, isOffer: true, offer: "Rent" },
     { id: 2, image: productImg2, name: "Kacyiru 2 bedroom", link: "#", rating: 4, oldPrice: 240, newPrice: 225, isOffer: false, offer: "Sale" },
     { id: 3, image: productImg3, name: "Kacyiru 2 bedroom", link: "#", rating: 4, oldPrice: 175, newPrice: 152, isOffer: true, offer: "Rent" },
@@ -43,7 +43,7 @@ export default () => {
                 {/* <div className="filters"> */}
                   <Col xl="4" sm="6" xs="9" className="select-location">
                   <Select
-                    placeholder="choose a prefered location" />
+                    placeholder="prefered location" />
                   </Col>
                   <Col xl="8" sm="6" xs="3" className="map-btn-div">
                     <div className="text-sm-right">
