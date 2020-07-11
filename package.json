@@ -14,6 +14,7 @@
     "@types/react-select": "^3.0.14",
     "@types/reactstrap": "^8.4.3",
     "@zeit/next-sass": "1.0.1",
+    "bootstrap": "^4.5.0",
     "classnames": "2.2.6",
     "moment": "2.25.3",
     "next": "latest",
