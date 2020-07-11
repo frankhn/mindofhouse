@@ -37,18 +37,18 @@ const IndexPage = (props: any) => {
         { ...rest }
       />
       <Parallax image={ require('assets/img/house3.jpg') }>
-        <div className={ `makeStyles-container-5 ${ classes.container }` } 
-        style={ { background: "#00000061" } }>
-          <GridContainer 
+        <div className={ `makeStyles-container-5 ${ classes.container }` }
+          style={ { background: "#00000061" } }>
+          <GridContainer
           // style={{ padding: "0", marginBottom: "2rem"}}
           >
             <GridItem xs={ 12 } sm={ 12 } md={ 6 }>
               <h1 className={ classes.title }
                 style={ { fontSize: "2.3rem", color: "#fff" } }
-                >Your Story Starts With Us.</h1>
+              >Your Story Starts With Us.</h1>
               <h3
                 style={ { fontSize: "1rem", color: "#fff" } }
-                >
+              >
                 Every  page needs a small description after the big bold
                 title, that{ "'" }s why I added this text here. Add here all the
                 information that can make houses create the first
