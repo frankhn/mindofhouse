@@ -39,11 +39,19 @@ export default () => {
         <div id="navigation-pills">
           <GridContainer>
             <div style={ { zIndex: 1000, background: "#f9f9f9", padding: "1rem", borderRadius: ".3rem" } }>
-              <div className="filters">
-                <Select
-                  placeholder="choose a prefered location" />
-                <button>Map</button>
-              </div>
+              <Row className="mb-2 filters">
+                {/* <div className="filters"> */}
+                  <Col xl="4" sm="6" xs="9" className="select-location">
+                  <Select
+                    placeholder="choose a prefered location" />
+                  </Col>
+                  <Col xl="8" sm="6" xs="3" className="map-btn-div">
+                    <div className="text-sm-right">
+                    <button className="map-btn">Map</button>
+                    </div>
+                  </Col>
+                {/* </div> */}
+              </Row>
 
               {/* map products */ }
 
