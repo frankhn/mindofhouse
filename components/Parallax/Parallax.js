@@ -60,6 +60,16 @@ export default function Parallax(props) {
         filter: "brightness(1)"
       }}
     >
+      {/* <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" 
+        playsInline 
+        autoPlay
+         muted 
+         loop
+        >
+          <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm" />
+          <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4" />
+        </video> */}
+
       {children}
     </div>
   );
