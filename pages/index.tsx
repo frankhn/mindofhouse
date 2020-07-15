@@ -59,7 +59,7 @@ const IndexPage = (props: any) => {
                 style={ { padding: ".5rem 1rem", fontSize: ".8rem" } }
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com"
+                href="https://www.youtube.com/channel/UCEd4IwoOljJmT0eZrQUqc5w"
                 target="_blank"
                 rel="noopener noreferrer">
                 <i className="fas fa-play" />
